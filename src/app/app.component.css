@@ -1,0 +1,92 @@
+.header {
+  background-color: #98a6f8;
+  color: #fff;
+  padding: 30px 0 30px 30px;
+  text-decoration: underline;
+  border-bottom: 4px solid #707070;
+}
+
+.form_data {
+  width: 60%;
+  margin: 50px auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form_content {
+  display: flex;
+  gap: 25px;
+  align-items: initial;
+}
+
+.form_content > label {
+  font-weight: 600;
+}
+.form_content input[type="text"],
+[type="email"] {
+  width: 200px;
+}
+.form_content input,
+select {
+  font-size: 15px;
+  padding: 2px 10px;
+}
+select {
+  width: 225px;
+}
+.form_content label {
+  width: 180px;
+}
+.radio_btn input {
+  padding-left: 50px;
+}
+.form_error {
+  color: red;
+  font-size: 16px;
+}
+
+.header1 {
+  background-color: #98a6f8;
+  color: #fff;
+  padding: 10px 0 10px 10px;
+  text-decoration: underline;
+  border-bottom: 4px solid #707070;
+  margin-bottom: 20px;
+}
+.list {
+  width: 90%;
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border: 1px solid #707070;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: initial;
+}
+tr:nth-child(even) {
+  color: #010b3f;
+}
+th {
+  background-color: #020f5a;
+  color: #fff;
+}
+.view {
+  text-align: center;
+}
+.view .button {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #020f5a;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+.view .button:hover {
+  color: red;
+}
